@@ -167,6 +167,99 @@
 .skills-right-content .skills-bars .html::before{
     width: 40%;
 }
+
+/*Resume*/
+.resume{
+    padding: 100px 0;
+    text-align: center;
+    background: rgb(37, 37, 37);
+    
+}
+.box-resume{
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
+    display: flex;
+    padding-bottom: 30px;
+    box-shadow: 6px 6px 2em rgb(128, 128, 128);
+    
+    
+}
+.resume-title{
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 90px;
+}
+
+
+.resume-title-left{
+    margin-top: 20px;
+    font-weight: 500px;
+    font-size: 20px;
+    color: rgb(27, 27, 27);
+    font-family: 'Roboto', sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#text-left p{
+    text-align: justify;
+    color: rgb(27, 27, 27);
+    padding-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+
+.resume-title-right{
+    margin-top: 20px;
+    font-weight: 500px;
+    font-size: 12px;
+    color: rgb(27, 27, 27);
+    font-family: 'Roboto', sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.resume-list-right{
+    padding-top: 20px;
+}
+.date-right{
+    border-radius: 50px;
+    background: rgb(41, 41, 41);
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    padding: 8px;
+    margin-left: 20%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.work-title{
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#text-right p{
+    text-align: justify;
+    color: rgb(27, 27, 27);
+    padding-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    padding-right: 30px;
+}
+
+
+
+
+.resume-right-content span{
+    font-weight: 500px;
+    font-size: 18px;
+   
+    font-family: 'Roboto', sans-serif;
+
+}
 /*Resume button*/
 .project{
     padding-top: 90px;
