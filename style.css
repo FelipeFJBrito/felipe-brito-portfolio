@@ -209,6 +209,8 @@
     font-size: 12px;
     padding: 8px;
     font-family: 'Roboto', sans-serif;
+   
+    
 }
 .ucw{
     margin-left: 6%;
@@ -217,7 +219,7 @@
     margin-left: 6%;
 }
 .sartre{
-    margin-left: 18%;
+    margin-left: 16%;
 }
 
 #text-left{
@@ -256,18 +258,13 @@
 }
 
 .work-title{
-    font-size: 23px;
+    font-size: 20px;
     font-family: 'Ubuntu', sans-serif;
     color: rgb(41, 72, 207);
+    position: relative;
 
 }
-.work-title-sartre{
-    font-size: 18px;
-    font-family: 'Roboto', sans-serif;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    
-}
+
 .work-title-2{
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
