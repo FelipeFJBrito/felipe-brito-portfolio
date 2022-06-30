@@ -159,13 +159,13 @@
     width: 60%;
 }
 .skills-right-content .skills-bars .java::before{
-    width: 30%;
+    width: 40%;
 }
 .skills-right-content .skills-bars .mysql::before{
     width: 30%;
 }
 .skills-right-content .skills-bars .html::before{
-    width: 30%;
+    width: 40%;
 }
 /*Resume button*/
 .project{
