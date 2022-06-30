@@ -60,7 +60,6 @@
 /*About Me*/
 
 .box{
-    width: 100%;
     box-shadow: 6px 6px 6px #888;
 }
 .about-me-title{
@@ -86,6 +85,7 @@
 }
 /*-----------------------*/
 
+/* Skills */
 .skills{
     padding: 100px 0;
     text-align: center;
