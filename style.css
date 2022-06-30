@@ -1,0 +1,169 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:wght@300;400;500&family=Ubuntu:wght@400;500;700&display=swap');
+
+
+/*-----------------------*/
+/*Nav*/
+.navbar{
+    background-color: rgb(39, 38, 38);
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+.menu-outline{
+    color: #fff;
+    font-size: 23px;
+}
+.navbar-brand{
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+}
+.nav-link{
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+}
+/*-----------------------*/
+/*Here we have the profile photo*/
+.my-photo{
+    height: 100%;
+    width: 280px;
+    max-width: 100%;
+    border-radius: 50%; 
+    transition: 1s; 
+}
+
+.my-photo:hover{
+    transform: scale(1.02);
+    z-index: 2;
+}
+.jumbotron{
+    background: url('assets/back2.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 100%;
+}
+
+.jumbotron-content{
+    padding-top: 20px;
+}
+
+.jumbotron-heading{
+    color: aliceblue;
+    font-family: 'Ubuntu', sans-serif;
+}
+.lead{
+    color: aliceblue;
+}
+
+
+/*About Me*/
+
+.box{
+    width: 100%;
+    box-shadow: 6px 6px 6px #888;
+}
+.about-me-title{
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 40px;
+}
+.about-me-text{
+    color: black;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.about-me-highlights{
+    margin-top: 10%;
+}
+.about-me-highlights-text{
+    font-size: 20px;
+    color: black;
+}
+.btn-about-me{
+    margin-left: 30%;
+}
+/*-----------------------*/
+
+.skills{
+    padding: 100px 0;
+    text-align: center;
+    background: rgb(37, 37, 37);
+    
+}
+.box-skills{
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
+    display: flex;
+    padding-bottom: 30px;
+    
+}
+.skills-title{
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 90px;
+}
+
+
+.skill-text-left{
+    margin-top: 20px;
+    font-weight: 500px;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+.col-md-5 p{
+    text-align: justify;
+    color: #fff;
+    padding-top: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.skills-right-content span{
+    font-weight: 500px;
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+.skills-bars{
+    margin-bottom:15px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.line{
+    width: 100%;
+    height: 5px;
+    background: #ccc;
+    position: relative;
+}
+
+.skills-right-content .skills-bars .line::before{
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgb(41, 72, 207);
+}
+.skills-right-content .skills-bars .python::before{
+    width: 60%;
+}
+.skills-right-content .skills-bars .java::before{
+    width: 60%;
+}
+.skills-right-content .skills-bars .mysql::before{
+    width: 60%;
+}
+.skills-right-content .skills-bars .html::before{
+    width: 60%;
+}
+/*Resume button*/
+.project{
+    padding-top: 90px;
+}
