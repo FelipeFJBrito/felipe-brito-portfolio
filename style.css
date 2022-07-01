@@ -14,18 +14,7 @@ html{
     font-family: 'Ubuntu', sans-serif;
     
 }
-.menu-outline{
-    color: #fff;
-    font-size: 23px;
-}
-.navbar-brand{
-    color: #fff;
-    font-family: 'Ubuntu', sans-serif;
-}
-.nav-link{
-    color: #fff;
-    font-family: 'Ubuntu', sans-serif;
-}
+
 /*-----------------------*/
 /*Here we have the profile photo*/
 .my-photo{
