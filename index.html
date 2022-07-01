@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/favicon.ico">
     <link rel="stylesheet" href="style.css">
     <title>Portfolio Felipe Brito</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
     <script src="https://kit.fontawesome.com/c3107f703b.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -62,7 +64,6 @@
       <!--Here we Have About Me-->
       <section role="about-me">
         <h2 class="about-me-title  text-center">About Me</h2>
-        <hr class="featurette-divider "  style="width: 200px;">
           <div class="container marketing">
             <hr class="featurette-divider ">
             <div class="box">
@@ -96,9 +97,8 @@
 
       <!--Here we Have Skills-->
       <section role="skills bg-dark">
-        <h2 class="skills-title  text-center">Skills</h2>
-        <hr class="featurette-divider "  style="width: 200px;">
         <div class="album py-5 bg-dark">
+          <h2 class="skills-title  text-center">Programming Skills</h2>
           <div class="container marketing bg-dark" >
             <div class="box-skills">
             <div class="row featurette">
@@ -146,8 +146,6 @@
 
       <section role="resume bg-dark">
         <h2 class="resume-title  text-center">Resume</h2>
-        <hr class="featurette-divider "  style="width: 200px;">
-
         <div class="album py-5 ">
             <div class="container marketing " >
               <div class="box-resume">
@@ -157,19 +155,19 @@
                   <ul  class="resume-list-right">
                     <li>
                       <div>
-                        <h2  class="work-title">University UCW <span class="date-left  ucw">2021-2022</span></h2>
+                        <h2  class="work-title">University UCW <span class="date-left  ucw">2022-Present</span></h2>
                       </div>
                       <h2 class="work-title-2">Bachelor of Commerce</h2>
                     </li>
                     <li>
                       <div>
-                        <h2  class="work-title ">University Area1<span class="date-left area1">2021-2022</span></h2>
+                        <h2  class="work-title ">University Area1<span class="date-left area1">2016-2022</span></h2>
                       </div>
                       <h2 class="work-title-2">Bachelor of Computer Engineering</h2>
                     </li>
                     <li>
                       <div>
-                        <h2  class="work-title">High School<span class="date-left sartre">2021-2022</span></h2>
+                        <h2  class="work-title">High School<span class="date-left sartre">2008-2015</span></h2>
                       </div>
                       <h2 class="work-title-2">Sartre COC</h2>
                     </li>
@@ -192,58 +190,56 @@
           </div>
         </div> 
       </section>
-
-
-
       <!--Here we Have Projects-->
-      <section class="project">
-        <h2 class="project-title  text-center">Projects</h2>
-        <hr class="featurette-divider " style="width: 200px;">
-        <div class="album py-5">
-          <div class="container">
-            <div class="row">
-              <hr class="featurette-divider "  style="width: 1100px;">
-              <div class="col-md-6">
-                <div class="card mb-4 box-shadow">
-                  <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="assets/snakeGame.png" data-holder-rendered="true">
-                  <div class="card-body">
-                    <p class="card-text">This is a project of a snake game, using the techknowledge.</p>
-                    <ul>
-                      <li>Python</li>
-                    </ul>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <a href="https://github.com/FelipeFJBrito/Python_Projects/tree/main/Snake_Game"  target="_bank" rel="external">
-                          <button type="button" class="btn btn-sm btn-outline-success">View Project</button>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+      <section class="project bg-dark" id="project">
+        <div class="max-width">
+          <h2 class="project-title">Projects</h2>
+          <div class="carousel owl-carousel">
+            <div class="card bg-dark">
+              <div class="box">
+                <img src="assets/snakeGame.png" alt="">
+                <div class="text">Snake Game</div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro laborum sequi, doloribus quisquam laudantium molestiae aperiam rem dolorum incidunt distinctio sed dolorem temporibus natus laboriosam provident suscipit corrupti cum ratione?</p>
+                <a href="https://github.com/FelipeFJBrito/Python_Projects/tree/main/Snake_Game"  target="_bank" rel="external" class="btn btn-success my-2"  style="font-family: 'Roboto', sans-serif;">Viw Project</a>
               </div>
-              
-                <div class="col-md-6">
-                  <div class="card mb-4 box-shadow">
-                    <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="assets/snakeGame.png" data-holder-rendered="true">
-                    <div class="card-body">
-                      <p class="card-text">This is a project of a snake game, using the techknowledge.</p>
-                      <ul>
-                        <li>Python</li>
-                      </ul>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                          <a href="https://github.com/FelipeFJBrito/Python_Projects/tree/main/Snake_Game"  target="_bank" rel="external">
-                            <button type="button" class="btn btn-sm btn-outline-success">View Project</button>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <hr class="featurette-divider "  style="width: 1100px;">
+            </div>
+            <div class="card bg-dark">
+              <div class="box">
+                <img src="assets/snakeGame.png" alt="">
+                <div class="text">Snake Game</div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro laborum sequi, doloribus quisquam laudantium molestiae aperiam rem dolorum incidunt distinctio sed dolorem temporibus natus laboriosam provident suscipit corrupti cum ratione?</p>
+                <a href="https://github.com/FelipeFJBrito/Python_Projects/tree/main/Snake_Game" target="_bank" rel="external" class="btn btn-success my-2"  style="font-family: 'Roboto', sans-serif;">Viw Project</a>
+              </div>
+            </div>
+            <div class="card bg-dark">
+              <div class="box">
+                <img src="assets/snakeGame.png" alt="">
+                <div class="text">Snake Game</div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro laborum sequi, doloribus quisquam laudantium molestiae aperiam rem dolorum incidunt distinctio sed dolorem temporibus natus laboriosam provident suscipit corrupti cum ratione?</p>
+                <a href="https://github.com/FelipeFJBrito/Python_Projects/tree/main/Snake_Game"  target="_bank" rel="external" class="btn btn-success my-2"  style="font-family: 'Roboto', sans-serif;">Viw Project</a>
+              </div>
+            </div>
+            <div class="card bg-dark">
+              <div class="box">
+                <img src="assets/snakeGame.png" alt="">
+                <div class="text">Snake Game</div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro laborum sequi, doloribus quisquam laudantium molestiae aperiam rem dolorum incidunt distinctio sed dolorem temporibus natus laboriosam provident suscipit corrupti cum ratione?</p>
+                <a href="https://github.com/FelipeFJBrito/Python_Projects/tree/main/Snake_Game" target="_bank" rel="external" class="btn btn-success my-2"  style="font-family: 'Roboto', sans-serif;">Viw Project</a>
+              </div>
             </div>
           </div>
         </div>
-      </section> 
+      </section>
+
+
+  
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+      
 </body>
 </html>
