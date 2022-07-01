@@ -61,7 +61,9 @@ html{
     color: aliceblue;
 }
 
-
+.fa-github{
+ width: 30px;
+}
 /*About Me*/
 
 .box{
