@@ -21,9 +21,9 @@ $(document).ready(function(){
     });
 
     var typed = new Typed(".lead", {
-        strings:["Software Develop", "Computer Engineering"],
-        typeSpeed:90,
-        backSpeed:70,
+        strings:["Software Develop 💻", "Computer Engineering 🎓"],
+        typeSpeed:80,
+        backSpeed:60,
         loop:true
     });
 
