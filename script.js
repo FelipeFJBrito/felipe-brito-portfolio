@@ -21,7 +21,7 @@ $(document).ready(function(){
     });
 
     var typed = new Typed(".lead", {
-        strings:["Software Develop 💻", "Computer Engineering 🎓"],
+        strings:["Software Developer 💻", "Computer Engineering 🎓"],
         typeSpeed:80,
         backSpeed:60,
         loop:true
