@@ -12,9 +12,13 @@ html{
 .navbar{
     background-color: rgb(39, 38, 38);
     font-family: 'Ubuntu', sans-serif;
-    
 }
 
+.nav-link:hover{
+    transform: scale(1.08);
+    z-index: 2;
+    
+}
 
 /*-----------------------*/
 /*Here we have the profile photo*/
@@ -61,6 +65,19 @@ html{
 
 .fa-github{
  width: 30px;
+}
+
+.fa-github:hover{
+    transform: scale(1.4);
+    z-index: 2;
+}
+.fa-linkedin:hover{
+    transform: scale(1.4);
+    z-index: 2;
+}
+.fa-instagram:hover{
+    transform: scale(1.4);
+    z-index: 2;
 }
 /*About Me*/
 
