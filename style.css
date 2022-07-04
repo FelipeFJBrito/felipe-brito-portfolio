@@ -414,7 +414,7 @@ html{
 }
 
 .project-title::after{
-    content: "My Work";
+    content: "Drag to the Side";
     position: absolute;
     bottom: -12px;
     background:#343a40;
@@ -682,6 +682,17 @@ html{
         position: absolute;
         bottom: -35px;
         background:#fff;
+        left: 50%;
+        font-size: 20px;
+        color: rgb(41, 72, 207) ;
+        transform: translateX(-50%);
+       
+    }
+    .project-title::after{
+        content: "Drag to the Side";
+        position: absolute;
+        bottom: -35px;
+        background:#343a40;;
         left: 50%;
         font-size: 20px;
         color: rgb(41, 72, 207) ;
