@@ -656,7 +656,51 @@ html{
     background:  rgb(41, 72, 207) ;
   }
 
+/*footer*/
+.text-muted{
+    padding: 20px;
+    background: #343a40;
+    height: 150px;
+    display: flex;
+    color: #fff;
+}
+.footer-content{
+    text-align: center;
+    color: #fff;
+}
+.social{
+    text-align: center;
+    color: #fff;
+    margin-left: 70px;
+    font-family: 'Roboto', sans-serif;
+}
+.copyright{
+        text-align: center;
+        color: #fff;
+        padding-top: 7px;
+        font-family: 'Roboto', sans-serif;
+    
+}
+
   @media (max-width: 282px) {
+    /*footer*/
+    
+    .social{
+        text-align:left;
+        color: #fff;
+        margin-left: -20px;
+        font-family: 'Roboto', sans-serif;
+        position: relative;
+        
+    }
+    .copyright{
+            text-align: center;
+            color: #fff;
+            padding-top: 7px;
+            font-family: 'Roboto', sans-serif;
+        
+    }
+      /*Resume*/
     .date-left{
         border-radius: 50px;
         background: rgb(41, 72, 207);
@@ -676,29 +720,6 @@ html{
         margin-left: 20%;
         font-family: 'Roboto', sans-serif;
     }
-
-    .contact-title::after{
-        content: "Talk to Me";
-        position: absolute;
-        bottom: -35px;
-        background:#fff;
-        left: 50%;
-        font-size: 20px;
-        color: rgb(41, 72, 207) ;
-        transform: translateX(-50%);
-       
-    }
-    .project-title::after{
-        content: "Drag to the Side";
-        position: absolute;
-        bottom: -35px;
-        background:#343a40;;
-        left: 50%;
-        font-size: 20px;
-        color: rgb(41, 72, 207) ;
-        transform: translateX(-50%);
-       
-    }
     .work-title-2{
         font-size: 18px;
         font-family: 'Roboto', sans-serif;
@@ -716,6 +737,31 @@ html{
     .sartre{
         margin-right: 33%;
     }
+      /*Contact*/
+    .contact-title::after{
+        content: "Talk to Me";
+        position: absolute;
+        bottom: -35px;
+        background:#fff;
+        left: 50%;
+        font-size: 20px;
+        color: rgb(41, 72, 207) ;
+        transform: translateX(-50%);
+       
+    }
+     /*project*/
+    .project-title::after{
+        content: "Drag to the Side";
+        position: absolute;
+        bottom: -35px;
+        background:#343a40;;
+        left: 50%;
+        font-size: 20px;
+        color: rgb(41, 72, 207) ;
+        transform: translateX(-50%);
+       
+    }
+
     
 }
   
@@ -733,6 +779,14 @@ html{
     .container-contact{
       margin: 40px 0;
       height: 100%;
+    }
+    .text-muted{
+        padding: 20px;
+        background: #343a40;
+        height: 205px;
+        display: flex;
+        color: #fff;
+        padding-top: 40px;
     }
     .container-contact .content{
       flex-direction: column-reverse;
