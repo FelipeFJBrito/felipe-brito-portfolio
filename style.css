@@ -410,7 +410,7 @@ html{
     left: 50%;
     transform: translateX(-50%);
     height: 3px;
-    width: 180px;
+    width: 200px;
 }
 
 .project-title::after{
