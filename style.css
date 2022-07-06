@@ -24,10 +24,15 @@ html{
 /*Here we have the profile photo*/
 .my-photo{
     height: 100%;
-    width: 280px;
+    width: 290px;
     max-width: 100%;
     border-radius: 50%; 
     transition: 1s; 
+  
+
+  
+    
+    
 }
 
 .my-photo:hover{
@@ -44,7 +49,7 @@ html{
 }
 
 .jumbotron-content{
-    padding-top: 20px;
+    margin-top:20px;
 }
 
 .jumbotron-heading{
