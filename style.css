@@ -111,7 +111,7 @@ html{
 }
 
 .about-me-title::after{
-    content: "Who AM I";
+    content: "Who Am I";
     position: absolute;
     bottom: -12px;
     background:#fff;
